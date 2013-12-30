@@ -4,9 +4,6 @@ $(call inherit-product, vendor/omni/config/cdma.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/omni/config/nfc_enhanced.mk)
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
